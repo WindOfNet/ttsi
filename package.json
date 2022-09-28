@@ -1,0 +1,25 @@
+{
+  "name": "texts-to-sql-in",
+  "version": "1.0.1",
+  "description": "simple tool for generate sql-in content from texts",
+  "main": "index.js",
+  "bin": {
+    "ttsi": "./index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "prettier": "prettier --write ."
+  },
+  "author": "windofnet <windofnet@hotmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "clipboardy": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "2.7.1"
+  }
+}
